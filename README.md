@@ -3,6 +3,8 @@
 Examples using Python [Tornado](http://tornado.readthedocs.org/en/latest/index.html) web server.
 Runs on `Python 3+`
 
+Each `.py` file is a standalone tornado web server example
+
 Examples include:
  * Asynchronous calls to a URL to retrivee JSON data and return to user
  * Periodic calls every N seconds to a URL. Stop after X retries.
