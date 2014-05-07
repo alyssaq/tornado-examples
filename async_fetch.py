@@ -1,3 +1,11 @@
+#!/usr/bin/env python
+"""A simple asynchronous call to count the
+  number of public github gists given a username
+
+  Run this program and go to http://localhost:3000/?user=alyssaq
+  Change the user query parameter to see how others compare!
+"""
+
 import sys
 import tornado.httpserver
 import tornado.ioloop
