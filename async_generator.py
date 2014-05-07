@@ -28,7 +28,6 @@ class IndexHandler(tornado.web.RequestHandler):
     response = yield tornado.gen.Task(client.fetch,
                                      'https://api.github.com/users/{0}/gists'.format(user),
                                      headers={'User-Agent': '{0}/tornado-demo'.format(user)}),
-    print(response)
     data = tornado.escape.json_decode(response.body)
     user = data[0]['owner']['login']
     self.write("""
