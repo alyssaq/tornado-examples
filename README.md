@@ -1,6 +1,7 @@
 # Tornado Examples
 
-Examples using Python [Tornado](http://tornado.readthedocs.org/en/latest/index.html) web server
+Examples using Python [Tornado](http://tornado.readthedocs.org/en/latest/index.html) web server.
+Runs on `Python 3+`
 
 Examples include:
  * Asynchronous calls to a URL to retrivee JSON data and return to user
