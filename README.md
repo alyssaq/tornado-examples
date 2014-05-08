@@ -6,8 +6,10 @@ Runs on `Python 3+`
 Each `.py` file is a standalone tornado web server example
 
 Examples include:
- * Asynchronous calls to a URL to retrivee JSON data and return to user
- * Periodic calls every N seconds to a URL. Stop after X retries.
+ * Asynchronous, non-blocking call to a URL to retrive JSON data
+ * Yield and co-routine
+ * Non overlapping periodic calls every N seconds to a URL. Stop after X retries.
+ * Overlapping periodic calls every N seconds to a URL. Stop after X retries.
 
 ## Develop locally
 Install requirements or check that you have them installed with `pip freeze`:
