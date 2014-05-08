@@ -18,6 +18,11 @@ $ python <file>.py      # Use default 3000 port
 ```
 
 ## Developing
+Clone the repo
+```sh
+$ git clone git@github.com:alyssaq/tornado-examples.git
+```
+
 Install requirements or check that you have them installed with `pip freeze`:
 ```sh
 $ pip install -r requirements.txt
