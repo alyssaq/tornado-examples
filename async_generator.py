@@ -20,7 +20,6 @@ import tornado.httpclient
 import tornado.escape
 
 class IndexHandler(tornado.web.RequestHandler):
-  @tornado.web.asynchronous
   @tornado.gen.engine
   def get(self):
     user = self.get_argument('user')
